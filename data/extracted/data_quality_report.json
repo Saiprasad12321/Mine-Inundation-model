@@ -1,0 +1,50 @@
+{
+  "total_records_extracted": 81,
+  "verified_inundation_incidents": 45,
+  "related_water_incidents": 20,
+  "duplicate_inquiry_references_linked": 16,
+  "total_verified_fatalities": 933,
+  "total_verified_injuries": 3,
+  "average_confidence_verified": 0.996,
+  "field_completeness_percentages": {
+    "incident_id": 100.0,
+    "source_pdf": 100.0,
+    "pdf_page": 100.0,
+    "mine_name": 100.0,
+    "accident_date": 100.0,
+    "fatalities": 100.0,
+    "incident_description": 98.77,
+    "supporting_source_passages": 100.0,
+    "confidence_score": 100.0,
+    "verification_status": 100.0
+  },
+  "validation_checks": {
+    "invalid_page_references": 0,
+    "negative_casualty_values": 0,
+    "invalid_date_formats": 0,
+    "invalid_confidence_scores": 0,
+    "ai_findings_separation_clean": true
+  },
+  "coverage_by_mineral": {
+    "Coal": 39,
+    "Lead & Zinc": 2,
+    "Mica": 2,
+    "Uranium": 1,
+    "Stone": 1
+  },
+  "coverage_by_source_pdf": {
+    "sanket_coal_2016_2022.pdf": 68,
+    "sanket_non_coal_2016_2022.pdf": 13
+  },
+  "status_distribution": {
+    "Verified Inundation": 45,
+    "Related Water Incident": 21,
+    "Duplicate Reference (Court of Inquiry)": 15
+  },
+  "data_limitations": [
+    "Historical major accidents from 1901-2015 provide date, mine, fatalities, and high-level cause, but lack verbatim 'Had' investigation transcripts which were formalized in recent decades.",
+    "Detailed investigation transcripts with specific regulation citations are available for modern accidents (2016-2022).",
+    "Non-fatal dangerous occurrences (e.g., irruptions without casualty) are recorded in macro decadal statistical tables (Table 2.6) rather than individual fatal dossiers.",
+    "Drowning incidents involving vehicle plunge into quarry sumps are categorized as Related Water Incidents and excluded from primary inundation tallies by default."
+  ]
+}
